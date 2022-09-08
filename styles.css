@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
-* {
-    font-family: "Poppins", sans-serif;
+:root {
+    --font: "Poppins", sans-serif;
+    --card-gradient:linear-gradient(to right, rgba(15, 32, 39,0.8), rgba(32, 58, 67,0.5), rgba(44, 83, 100,0.2));
+    --hover-gradient:linear-gradient(to right, rgba(15, 32, 39,0.9), rgba(32, 58, 67,0.7), rgba(44, 83, 100,0.5));
+    --body-bg-clr: #090d16;
+    --body-txt-clr: #f2f2f2;
+}
+
+*{
+    font-family: var(--font);
 }
 
 body {
-    color: white;
+    color: var(--body-txt-clr);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #090d16 ;
-    /* opacity: 0.7; */
+    background-color: var(--body-bg-clr) ;
 }
 h1 {
     text-align: center;
@@ -27,6 +34,8 @@ h2 {
 h4 {
     font-weight: normal;
     margin-top: 0;
+    opacity: 0.7;
+
 }
 
 span {
@@ -56,24 +65,28 @@ span {
 }
 
 .core-container {
-    background: linear-gradient(to right, rgba(15, 32, 39,0.8), rgba(32, 58, 67,0.5), rgba(44, 83, 100,0.2));
+    background: var(--card-gradient);
     display: inline-block;
-    padding: 2rem 0.5rem 4rem 2rem;
-    width: 50%;
+    padding: 2rem 2rem 4rem 2rem;
+    width: 60%;
     align-self: center;
+    margin-bottom: 40px;
 }
 .core-container:hover {
     transition: 0.3s;
     cursor: pointer;
     transform: scale(1.1);
-    background: linear-gradient(to right, rgba(15, 32, 39,0.9), rgba(32, 58, 67,0.7), rgba(44, 83, 100,0.5));
+    background: var(--hover-gradient);
 
 }
 
-
 .member {
-    /* color: white; */
-    display: inline-block;
+    display: flex;
+    width:200px;
+    height:230px;
+    flex-direction:column;
+    gap :20px;
+    align-items: center;
 }
 
 .pfp-core-team {
@@ -105,9 +118,8 @@ span {
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: #f2f2f2;
     transform: scale(0.8);
-    background: linear-gradient(to right, rgba(15, 32, 39,0.8), rgba(32, 58, 67,0.5), rgba(44, 83, 100,0.2));
+    background: var(--card-gradient);
 }
 
 @keyframes slidescroll{
@@ -124,10 +136,9 @@ span {
 
 
 .pfp-member {
-    margin-left: 1.5rem;
-    margin-bottom: 3rem;
-    width: 100px;
-    height: 100px;
+    margin-bottom: 2.5rem;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
 }
 
