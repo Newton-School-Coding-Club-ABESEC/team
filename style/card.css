@@ -1,8 +1,7 @@
-/* 
-card stylesheet
-*/
+/* card styleSheet */
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .snip1344 {
+  cursor: pointer;
   font-family: var(--primary-font);
   position: relative;
   overflow: hidden;
@@ -14,9 +13,10 @@ card stylesheet
   text-align: center;
   line-height: 1.4em;
   background-color: #141414;
+  border-radius: 5px;
 }
 .snip1344:hover {
-  transition: 0.1s;
+  transition: 0.3s;
   transform: scale(1.05);
 }
 .snip1344 * {
@@ -54,7 +54,7 @@ card stylesheet
   transform: translate(-50%, 0%);
 }
 .snip1344 h3 {
-  color: var(--secondary-color);
+  color: #ff9002;
   margin: 0 0 5px;
   font-size: 1.4rem;
 }
