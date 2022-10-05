@@ -1,0 +1,264 @@
+{
+    "core": [
+        {
+            "name": "Rajat Gupta",
+            "position": "President",
+            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "social": {
+                "instagram": "#",
+                "linkedin": "#",
+                "twitter": "#",
+                "github": "#"
+            }
+        },
+        {
+            "name": "Pulkit Gupta",
+            "position": "Vice-President",
+            "image": "./assets/profile/core-pulkitgupta.jpeg",
+            "social": {
+                "instagram": "https://www.instagram.com/i__pulkit/",
+                "linkedin": "https://www.linkedin.com/in/pulkit-gupta-707459214/",
+                "twitter": "https://twitter.com/Pulkit_30",
+                "github": "https://github.com/pulkit-30"
+            }
+        },
+        {
+            "name": "Ishaan Tyagi",
+            "position": "Technical Lead",
+            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "social": {
+                "instagram": "#",
+                "linkedin": "#",
+                "twitter": "#",
+                "github": "#"
+            }
+        },
+        {
+            "name": "Ishaanki Verma",
+            "position": "Content Lead",
+            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "social": {
+                "instagram": "#",
+                "linkedin": "#",
+                "twitter": "#",
+                "github": "#"
+            }
+        },
+        {
+            "name": "Bedi",
+            "position": "Promotion Lead",
+            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "social": {
+                "instagram": "#",
+                "linkedin": "#",
+                "twitter": "#",
+                "github": "#"
+            }
+        }
+    ],
+    "members": {
+        "TECHNICAL TEAM": [
+            {
+                "name": "sample",
+                "position": "President",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Vice-President",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Technical Lead",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Content Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Promotion Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Promotion Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            }
+        ],
+        "EVENT MANAGEMENT TEAM": [
+            {
+                "name": "sample",
+                "position": "President",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Vice-President",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Technical Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Content Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Promotion Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Promotion Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            }
+        ],
+        "PROMOTION TEAM": [
+            {
+                "name": "sample",
+                "position": "President",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Vice-President",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Technical Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Content Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Promotion Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            },
+            {
+                "name": "sample",
+                "position": "Promotion Lead",
+                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "social": {
+                    "instagram": "#",
+                    "linkedin": "#",
+                    "twitter": "#",
+                    "github": "#"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Poppins:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #000;
+  --secondary-color: #ffc422;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Alegreya Sans SC', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: var(--primary-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--secondary-font);
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 2rem 0;
+}
+a {
+  font-family: var(--secondary-font);
+  color: black;
+  text-decoration: none;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  color: white;
+  z-index: 10;
+  overflow: hidden;
+}
+.nav-left {
+  position: relative;
+  left: 2rem;
+  width: 20%;
+  font-size: 2rem;
+}
+.nav-left a {
+  color: white;
+}
+.nav-right {
+  position: relative;
+  right: 2rem;
+  width: 30%;
+}
+.nav-right ul {
+  width: 100%;
+}
+.nav-right ul li {
+  list-style: none;
+}
+
+/* hero-section-image */
+.hero-section {
+  margin: 3rem 0;
+}
+.hero-section-image {
+  width: 40vw;
+  height: 25rem;
+}
+/* content sections */
+#main-content {
+  width: 70%;
+  margin: auto;
+}
+#members-content {
+  width: 70%;
+  margin: auto;
+}
+#members-content h2 {
+  margin: 1.5rem 0;
+}
+#members-content div {
+  margin-bottom: 5rem;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  color: white;
+}
