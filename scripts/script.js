@@ -1,8 +1,6 @@
 // content script
 window.addEventListener('load', async () => {
-  const response = await fetch('../content/current.json').then((res) =>
-    res.json()
-  );
+  const response = data;
   if (response) {
     const main = document.getElementById('main-content');
     const coreTeam = response.core;
@@ -74,14 +72,12 @@ window.addEventListener('load', async () => {
       });
       memberSection.appendChild(div);
     }
-
-    // hiding loader
-    document
-      .querySelector('#loader .three-quarter-spinner')
-      .classList.add('remove-loader');
-    setTimeout(() => {
-      document.getElementById('loader').style.display = 'none';
-    }, 300);
-  } else {
   }
+  // hiding loader
+  document
+    .querySelector('#loader .three-quarter-spinner')
+    .classList.add('remove-loader');
+  setTimeout(() => {
+    document.getElementById('loader').style.display = 'none';
+  }, 300);
 });
