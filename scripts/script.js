@@ -37,7 +37,7 @@ window.addEventListener('load', async () => {
     for (let i in members) {
       const memberSection = document.getElementById('members-content');
       const heading = document.createElement('h2');
-      heading.innerHTML = `<a href=${'/#' + i}>${i}</a>`;
+      heading.innerHTML = `<a href=${'#' + i}>${i}</a>`;
       memberSection.appendChild(heading);
       const div = document.createElement('div');
       div.classList.add('flex');

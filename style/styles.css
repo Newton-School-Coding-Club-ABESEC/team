@@ -4,10 +4,12 @@
   padding: 0;
 }
 :root {
-  --primary-color: #2c8cd5ed;
-  --secondary-color: #fff;
+  --primary-color: #ffffffb7;
+  --secondary-color: rgb(0, 0, 0);
   --primary-font: 'Poppins', sans-serif;
   --secondary-font: 'Alegreya Sans SC', sans-serif;
+  --gradient-primary-color: #3295dc;
+  --gradient-secondary-color: #fc4455;
 }
 html {
   scroll-behavior: smooth;
@@ -27,9 +29,13 @@ h6 {
   font-family: var(--secondary-font);
 }
 h1 {
-  font-size: 3rem;
+  position: relative;
+  font-size: 4rem;
   font-weight: bolder;
-  margin: 1.25rem 0;
+  margin: 1rem 0;
+}
+h2 {
+  font-size: 2rem;
 }
 a {
   font-family: var(--secondary-font);
@@ -40,30 +46,38 @@ a:hover {
   transition: 0.2s;
   color: #652fd2;
 }
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    var(--gradient-primary-color),
+    var(--gradient-secondary-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .navbar {
   position: sticky;
   top: 0;
   width: 100%;
   height: 70px;
-  background: rgba(0, 111, 195, 0.73);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border: 1px solid rgba(79, 151, 206, 0.418);
-  color: white;
+  background: var(--primary-color);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  color: var(--secondary-color);
   z-index: 10;
   overflow: hidden;
 }
 .nav-left {
   position: relative;
   left: 2rem;
-  width: 15%;
+  width: 250px;
   font-size: 2rem;
 }
 .nav-left img {
-  width: 3rem;
+  width: 2.5rem;
 }
 .nav-left a {
-  color: white;
+  color: var(--secondary-color);
 }
 .nav-right {
   position: relative;
@@ -78,9 +92,6 @@ a:hover {
 }
 
 /* hero-section-image */
-.hero-section {
-  padding: 2rem 0;
-}
 .hero-section-image {
   width: 40vw;
 }
@@ -94,17 +105,36 @@ a:hover {
   margin: auto;
 }
 #members-content h2 {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 #members-content div {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 footer {
   width: 100%;
-  height: 100px;
-  background: rgba(0, 111, 195, 0.73);
+  min-height: 20vh;
+  padding: 10px 0;
+  background: var(--primary-color);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  border: 1px solid rgba(79, 151, 206, 0.418);
-  color: white;
+  color: var(--secondary-color);
+}
+footer .social {
+  width: 30%;
+  font-size: 1.8rem;
+  margin: 3rem 0;
+}
+footer .social i {
+  cursor: pointer;
+}
+footer .social i:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  background: linear-gradient(
+    to right,
+    var(--gradient-primary-color),
+    var(--gradient-secondary-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
