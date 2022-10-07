@@ -27,24 +27,3 @@
     flex-wrap: wrap;
 }
 /* utils classes */
-ul li::after {
-    content: "";
-    width: 0;
-    height: 3px;
-    background: linear-gradient(to right, blue, red);
-    margin: auto;
-    display: block;
-}
-ul li:hover::after {
-    width: 100%;
-    transition: width 0.3s linear;
-}
-ul li:hover {
-    background: -webkit-linear-gradient(45deg, blue, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: pointer;
-}
-ul li {
-    font-weight: bold;
-}
