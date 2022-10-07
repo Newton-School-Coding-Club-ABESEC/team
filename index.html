@@ -1,109 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- stylesheets -->
-        <link rel="stylesheet" href="./style/styles.css" />
-        <link rel="stylesheet" href="./style/utils.css" />
-        <link rel="stylesheet" href="./style/card.css" />
-        <link rel="stylesheet" href="./style/loader.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        />
+  <head>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./style/styles.css" />
+    <link rel="stylesheet" href="./style/utils.css" />
+    <link rel="stylesheet" href="./style/card.css" />
+    <link rel="stylesheet" href="./style/loader.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
 
-        <!-- content files -->
-        <script src="./content/current.json" type="text/javascript"></script>
+    <!-- content files -->
+    <script src="./content/current.json" type="text/javascript"></script>
 
-        <!-- meta tags -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- document title -->
-        <title>NSCC-ABESEC Team</title>
-    </head>
-    <body>
-        <!-- loader -->
-        <div class="spinner-box" id="loader">
-            <div class="three-quarter-spinner"></div>
+    <!-- document title -->
+    <title>NSCC-ABESEC Team</title>
+  </head>
+  <body>
+    <!-- loader -->
+    <div class="spinner-box" id="loader">
+      <div class="three-quarter-spinner"></div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar flex f-space-btw" id="navbar">
+      <h2 class="nav-left logo flex f-space-btw">
+        <img src="./assets/ui/logo.png" alt="logo" />
+        <a href="#" class="gradient-text">NSCC ABESEC</a>
+      </h2>
+      <div class="nav-right">
+        <ul class="flex f-space-eve">
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>TEAM</li>
+          <li>CONTACT</li>
+          <li>JOIN</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <main>
+      <section class="hero-section flex f-space-eve">
+        <div>
+          <h1 class="gradient-text">OUR TEAM</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+            eveniet?
+          </p>
+          <p
+            style="margin: 10px 0px; width: 300px; color: black"
+            class="typewrite"
+            data-period="2000"
+            data-type='[ "sub-heading 1","sub-heading 2","sub-heading 3"]'
+          >
+            <span class="wrap"></span>
+          </p>
         </div>
+        <div>
+          <img
+            src="./assets/ui/hero.png"
+            alt="hero-section-image"
+            class="hero-section-image"
+          />
+        </div>
+      </section>
 
-        <!-- navbar -->
-        <nav class="navbar flex f-space-btw" id="navbar">
-            <h2 class="nav-left logo flex f-space-btw">
-                <img src="./assets/ui/logo.png" alt="logo" />
-                <a href="#" class="gradient-text">NSCC ABESEC</a>
-            </h2>
-            <div class="nav-right">
-                <ul class="flex f-space-eve">
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>TEAM</li>
-                    <li>CONTACT</li>
-                    <li>JOIN</li>
-                </ul>
-            </div>
-        </nav>
+      <!-- core team members -->
+      <section class="flex f-col" id="core">
+        <h1><a href="#core" class="gradient-text">CORE TEAM</a></h1>
+        <div class="flex f-space-eve f-wrap" id="main-content"></div>
+      </section>
 
-        <!-- hero section -->
-        <main>
-            <section class="hero-section flex f-space-eve">
-                <div>
-                    <h1 class="gradient-text">OUR TEAM</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quia, eveniet?
-                    </p>
-                    <p
-                        style="margin: 10px 0px; width: 300px; color: black"
-                        class="typewrite"
-                        data-period="2000"
-                        data-type='[ "sub-heading 1","sub-heading 2","sub-heading 3"]'
-                    >
-                        <span class="wrap"></span>
-                    </p>
-                </div>
-                <div>
-                    <img
-                        src="./assets/ui/hero.png"
-                        alt="hero-section-image"
-                        class="hero-section-image"
-                    />
-                </div>
-            </section>
+      <!-- team member content -->
+      <section class="flex f-col" id="members">
+        <h1>
+          <a href="#members" class="gradient-text">TEAM MEMBERS</a>
+        </h1>
+        <div class="flex f-col f-space-eve f-wrap" id="members-content"></div>
+      </section>
+    </main>
 
-            <!-- core team members -->
-            <section class="flex f-col" id="core">
-                <h1><a href="#core" class="gradient-text">CORE TEAM</a></h1>
-                <div class="flex f-space-eve f-wrap" id="main-content"></div>
-            </section>
+    <!-- footer -->
+    <footer class="flex f-col">
+      <div class="social flex f-space-eve">
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <div>All rights reserved © 2022</div>
+    </footer>
+  </body>
 
-            <!-- team member content -->
-            <section class="flex f-col" id="members">
-                <h1>
-                    <a href="#members" class="gradient-text">TEAM MEMBERS</a>
-                </h1>
-                <div
-                    class="flex f-col f-space-eve f-wrap"
-                    id="members-content"
-                ></div>
-            </section>
-        </main>
-
-        <!-- footer -->
-        <footer class="flex f-col">
-            <div class="social flex f-space-eve">
-                <i class="fa-brands fa-discord"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-            </div>
-            <div>All rights reserved © 2022</div>
-        </footer>
-    </body>
-
-    <!-- scripts -->
-    <script src="./scripts/script.js"></script>
-    <script src="./scripts/type.js"></script>
+  <!-- scripts -->
+  <script src="./scripts/script.js"></script>
+  <script src="./scripts/type.js"></script>
 </html>
