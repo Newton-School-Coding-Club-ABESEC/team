@@ -89,8 +89,33 @@ a:hover {
 }
 .nav-right ul li {
   list-style: none;
+  cursor: pointer;
 }
-
+.nav-right ul li:hover {
+  background: linear-gradient(
+    to right,
+    var(--gradient-primary-color),
+    var(--gradient-secondary-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-right ul li::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    var(--gradient-primary-color),
+    var(--gradient-secondary-color)
+  );
+  margin: auto;
+  display: block;
+}
+.nav-right ul li:hover::after {
+  width: 100%;
+  transition: width 0.3s linear;
+}
 /* hero-section-image */
 .hero-section-image {
   width: 40vw;
