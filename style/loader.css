@@ -14,7 +14,7 @@
 .three-quarter-spinner {
   width: 50px;
   height: 50px;
-  border: 3px solid var(--primary-color);
+  border: 3px solid #0998ff;
   border-top: 3px solid transparent;
   border-radius: 50%;
   animation: spin 0.5s linear 0s infinite;
