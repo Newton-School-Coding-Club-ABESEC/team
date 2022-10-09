@@ -23,10 +23,10 @@ window.addEventListener('load', async () => {
         <h3>${member.name}</span></h3>
         <h4>${member.position}</span></h3>
         <div class="icons">
-        <a href="${member.social.twitter}"><i class="ion-social-twitter-outline"></i></a>
-        <a href="${member.social.instagram}"><i class="ion-social-instagram-outline"></i></a>
-        <a href="${member.social.linkedin}"><i class="ion-social-linkedin-outline"></i></a>
-        <a href="${member.social.github}"><i class="ion-social-github-outline"></i></a>
+        <a target="_blank" href="${member.social.twitter}"><i class="fa-brands fa-twitter"></i></a>
+        <a target="_blank" href="${member.social.instagram}"><i class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href="${member.social.linkedin}"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a target="_blank" href="${member.social.github}"><i class="fa-brands fa-github"></i></a>
         </div>
       </figcaption>
     </figure>
@@ -61,10 +61,10 @@ window.addEventListener('load', async () => {
           <figcaption>
             <h3>${member.name}</span></h3>
             <div class="icons">
-              <a href="${member.social.twitter}"><i class="ion-social-twitter-outline"></i></a>
-              <a href="${member.social.instagram}"><i class="ion-social-instagram-outline"></i></a>
-              <a href="${member.social.linkedin}"><i class="ion-social-linkedin-outline"></i></a>
-              <a href="${member.social.github}"><i class="ion-social-github-outline"></i></a>
+            <a target="_blank" href="${member.social.twitter}"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="${member.social.instagram}"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="${member.social.linkedin}"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a target="_blank" href="${member.social.github}"><i class="fa-brands fa-github"></i></a>
             </div>
           </figcaption>
         </figure>

@@ -3,12 +3,12 @@ data = {
         {
             "name": "Rajat Gupta",
             "position": "President",
-            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "image": "./assets/profile/core-rajatgupta.jpeg",
             "social": {
-                "instagram": "#",
-                "linkedin": "#",
+                "instagram": "https://www.instagram.com/rajat_gupta_20",
+                "linkedin": "http://www.linkedin.com/in/rajat-gupta-894131221",
                 "twitter": "#",
-                "github": "#"
+                "github": "https://github.com/RajatGupta2002"
             }
         },
         {
@@ -25,34 +25,34 @@ data = {
         {
             "name": "Ishaan Tyagi",
             "position": "Technical Lead",
-            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "image": "./assets/profile/core-ishaantyagi.jpeg",
             "social": {
-                "instagram": "#",
-                "linkedin": "#",
-                "twitter": "#",
-                "github": "#"
+                "instagram": "https://www.instagram.com/its_ishaan._/",
+                "linkedin": "https://www.linkedin.com/in/ishaan-tyagi-998228146/",
+                "twitter": "https://twitter.com/deadFrost_",
+                "github": "https://github.com/IshaanTyagi"
             }
         },
         {
-            "name": "Ishaanki Verma",
+            "name": "Ishanki Verma",
             "position": "Content Lead",
-            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "image": "./assets/profile/core-ishanki.png",
             "social": {
                 "instagram": "#",
-                "linkedin": "#",
-                "twitter": "#",
-                "github": "#"
+                "linkedin": "https://www.linkedin.com/in/ishanki-verma-7837a51b9/",
+                "twitter": "https://twitter.com/IshankiV",
+                "github": "https://github.com/ishanki19-pixel"
             }
         },
         {
-            "name": "Bedi",
+            "name": "Tejaswa Bedi",
             "position": "Promotion Lead",
-            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+            "image": "./assets/profile/core-bedi.jpeg",
             "social": {
-                "instagram": "#",
-                "linkedin": "#",
+                "instagram": "https://www.instagram.com/tejaswarc11/",
+                "linkedin": "https://www.linkedin.com/in/tejaswa-bedi-8807a0222/",
                 "twitter": "#",
-                "github": "#"
+                "github": "https://github.com/TejaswaBedi"
             }
         }
     ],

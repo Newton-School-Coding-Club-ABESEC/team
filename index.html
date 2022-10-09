@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./style/utils.css" />
     <link rel="stylesheet" href="./style/card.css" />
     <link rel="stylesheet" href="./style/loader.css" />
+
+    <!-- font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -31,16 +33,17 @@
     <!-- navbar -->
     <nav class="navbar flex f-space-btw" id="navbar">
       <h2 class="nav-left logo flex f-space-btw">
-        <img src="./assets/ui/logo.png" alt="logo" />
-        <a href="#" class="gradient-text">NSCC ABESEC</a>
+        <a href="#" class="gradient-text flex">
+          <img src="./assets/ui/logo.png" alt="logo" />
+        </a>
       </h2>
       <div class="nav-right">
         <ul class="flex f-space-eve">
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>TEAM</li>
-          <li>CONTACT</li>
-          <li>JOIN</li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">TEAM</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#join">JOIN</a></li>
         </ul>
       </div>
     </nav>
@@ -88,7 +91,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="flex f-col">
+    <footer class="flex f-col" id="join">
       <div class="social flex f-space-eve">
         <i class="fa-brands fa-discord"></i>
         <i class="fa-brands fa-twitter"></i>
