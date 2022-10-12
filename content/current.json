@@ -59,143 +59,171 @@ data = {
     "members": {
         "TECHNICAL TEAM": [
             {
-                "name": "sample",
-                "position": "President",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Sarthak Vaish",
+                "image": "https://drive.google.com/open?id=10DcFQmwG7FHHNAcGVKOS9rTOX0CvqS_x",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://www.instagram.com/i_sid_vaish/",
+                    "linkedin": "https://www.linkedin.com/in/sarthak-vaish-433a51227/",
+                    "twitter": "https://twitter.com",
+                    "github": "https://github.com/niaar"
                 }
             },
             {
-                "name": "sample",
-                "position": "Vice-President",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Prerna Sharma",
+                "image": "https://drive.google.com/open?id=1zMJ_JTxr16YQXVkQmEcL04fC5oqDqAbO",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://www.instagram.com/prernaa._.sharmaa/",
+                    "linkedin": "https://www.linkedin.com/in/prerna-sharma-625b56214/",
+                    "twitter": "https://twitter.com/PrernaS16585319",
+                    "github": "https://github.com/Prerna-0202"
                 }
             },
             {
-                "name": "sample",
-                "position": "Technical Lead",
+                "name": "Ankur Sharma",
+                "image": "https://drive.google.com/open?id=1ZWBtE1buG7yUsb8YGfEtOSbXkPIsDTPs",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://www.instagram.com/ankur_918/",
+                    "linkedin": "https://www.linkedin.com/in/ankur-sharma-365559214/",
+                    "twitter": "https://twitter.com/AnkurSh0403",
+                    "github": "https://github.com/Ankur-Sh"
                 }
             },
             {
-                "name": "sample",
-                "position": "Content Lead",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Jahanvi Gupta",
+                "image": "https://drive.google.com/open?id=1XDu1nGg4oJXSR6OUTeVDcWkqOr95PXrn",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
+                    "instagram": "https://www.instagram.com/jahanviigupta/",
+                    "linkedin": "https://www.linkedin.com/in/jahanvi-gupta-6178bb245/",
                     "twitter": "#",
-                    "github": "#"
+                    "github": "https://github.com/JAHANVIGUPTA1775"
                 }
             },
             {
-                "name": "sample",
-                "position": "Promotion Lead",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Pratham Ajmera",
+                "image": "https://drive.google.com/open?id=19Qes0bI7FXhQZuvgg6izyn04_CpQkzow",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": " https://www.instagram.com/pratham__ajmera/",
+                    "linkedin": "https://www.linkedin.com/in/pratham-ajmera-227049184/",
+                    "twitter": "https://twitter.com/pratham_ajmera",
+                    "github": "https://github.com/Pratham-Ajmera"
                 }
             },
             {
-                "name": "sample",
-                "position": "Promotion Lead",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Shubham Sharma",
+                "image": "https://drive.google.com/open?id=15XxHUnW2gjIRh2-hKEU5sGArsWu6h3Ra",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://www.instagram.com/_.shubhamsharma/",
+                    "linkedin": "https://www.linkedin.com/in/shubham-sharma-57b104253/",
+                    "twitter": "https://twitter.com/shubham160r",
+                    "github": "https://github.com/Vyagh"
+                }
+            },
+            {
+                "name": "Priyanshu Ranjan",
+                "image": "https://drive.google.com/open?id=14G_gSlcxeGQNSFqW9bzMsn0eyz8Mi2Fq",
+                "social": {
+                    "instagram": "https://www.instagram.com/priyanshur66/",
+                    "linkedin": "https://www.linkedin.com/in/priyanshu-ranjan-5203b6238",
+                    "twitter": "https://twitter.com/priyanshur66",
+                    "github": "https://github.com/priyanshur66"
+                }
+            },
+            {
+                "name": "Nishant Kumar",
+                "image": "https://drive.google.com/open?id=15XxHUnW2gjIRh2-hKEU5sGArsWu6h3Ra",
+                "social": {
+                    "instagram": "https://www.instagram.com/nishantkumar133/",
+                    "linkedin": "https://www.linkedin.com/in/nishant-kumar-20a229231/",
+                    "twitter": "https://twitter.com/NishantKumar_54",
+                    "github": "https://github.com/NishantkumarABES"
                 }
             }
         ],
         "EVENT MANAGEMENT TEAM": [
             {
-                "name": "sample",
-                "position": "President",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Raghvendra Mittal",
+                "image": "https://drive.google.com/open?id=1ZEsMzMsznyu7ypsEkR25LhX_FKZgNI_Z",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
+                    "instagram": "https://www.instagram.com/raghavmittal_17/",
+                    "linkedin": "https://www.linkedin.com/in/raghvendra-mittal-7b57a5215/",
+                    "twitter": "https://twitter.com/RaghvendraMitt3",
+                    "github": "https://github.com/codermittal17"
+                }
+            },
+            {
+                "name": "Saloni Gupta",
+                "image": "https://drive.google.com/open?id=1ccYq7CmdTcoHWq8VBfk7ljTQDUgRCfdY",
+                "social": {
+                    "instagram": "https://www.instagram.com/saloni_gupta003?r=nametag",
+                    "linkedin": "https://www.linkedin.com/in/saloni-gupta-95749223a",
+                    "twitter": "https://twitter.com/Saloni2208",
+                    "github": "https://github.com/Saloni220803"
+                }
+            },
+            {
+                "name": "Muskaan Singh",
+                "image": "https://drive.google.com/open?id=1Pq7Hrc2vpJwzyrKlBzoChrF7oXADt1Da",
+                "social": {
+                    "instagram": "https://www.instagram.com/muskaansingh9173/",
+                    "linkedin": "http://www.linkedin.com/in/muskaan-singh-89b232222",
                     "twitter": "#",
                     "github": "#"
                 }
             },
             {
-                "name": "sample",
-                "position": "Vice-President",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Kavya Tyagi",
+                "image": "https://drive.google.com/open?id=1H8xRRsdgjhdx6jTKHcltDPwXTde_C906",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://instagram.com/tyagi_kavya_?igshid=YmMyMTA2M2Y=",
+                    "linkedin": "https://www.linkedin.com/in/kavya-tyagi-7b3049253",
+                    "twitter": "https://twitter.com/KavyaTyagi15?t=bg7E5RtKoOIAzXhXjJ7ijQ&s=08",
+                    "github": "https://github.com/kavyatyagi08"
                 }
             },
             {
-                "name": "sample",
-                "position": "Technical Lead",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Naman Mishra ",
+                "image": "https://drive.google.com/open?id=1AB0LXWsiFEAKSFfeJlRoKWfvD37N8Izi",
                 "social": {
                     "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "linkedin": "https://www.linkedin.com/in/naman-mishra-71070b250",
+                    "twitter": "https://twitter.com/Naman1573",
+                    "github": "https://github.com/NAMAN-1573"
                 }
             },
             {
-                "name": "sample",
-                "position": "Content Lead",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Aryan Arora",
+                "image": "https://drive.google.com/open?id=13jcdTmi_FW75FcYR0SKdQjtLWaeCCFXu",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://www.instagram.com/ig_aryanarora_/",
+                    "linkedin": "https://www.linkedin.com/in/aryan-arora-176b5a225",
+                    "twitter": "https://twitter.com/AryanAr13938567",
+                    "github": "https://github.com/AryanArora0033"
                 }
             },
             {
-                "name": "sample",
-                "position": "Promotion Lead",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Poorvi Varshney",
+                "image": "https://drive.google.com/open?id=12kwyWo87Nn9kxWCIJtijkbkXM9exptZI",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://www.instagram.com/poor_we._/",
+                    "linkedin": "https://www.linkedin.com/in/poorvi-mani-varshney-4571ba218/",
+                    "twitter": "https://twitter.com/poor_we_",
+                    "github": "https://github.com/poorvivarshney"
                 }
             },
             {
-                "name": "sample",
-                "position": "Promotion Lead",
-                "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
+                "name": "Shikhar Gupta",
+                "image": "https://drive.google.com/open?id=1AaqiJ1a4KrGcTsw4BztpzxwX4SLB4J5S",
                 "social": {
-                    "instagram": "#",
-                    "linkedin": "#",
-                    "twitter": "#",
-                    "github": "#"
+                    "instagram": "https://www.instagram.com/shikhar9007",
+                    "linkedin": "https://www.linkedin.com/in/shikhar-gupta-67533822a",
+                    "twitter": "https://twitter.com/shikharg1110",
+                    "github": "https://github.com/shikharg1110"
                 }
             }
         ],
         "PROMOTION TEAM": [
             {
                 "name": "sample",
-                "position": "President",
                 "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
                 "social": {
                     "instagram": "#",
@@ -206,7 +234,6 @@ data = {
             },
             {
                 "name": "sample",
-                "position": "Vice-President",
                 "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
                 "social": {
                     "instagram": "#",
@@ -217,7 +244,6 @@ data = {
             },
             {
                 "name": "sample",
-                "position": "Technical Lead",
                 "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
                 "social": {
                     "instagram": "#",
@@ -228,7 +254,6 @@ data = {
             },
             {
                 "name": "sample",
-                "position": "Content Lead",
                 "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
                 "social": {
                     "instagram": "#",
@@ -239,7 +264,6 @@ data = {
             },
             {
                 "name": "sample",
-                "position": "Promotion Lead",
                 "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
                 "social": {
                     "instagram": "#",
@@ -250,7 +274,6 @@ data = {
             },
             {
                 "name": "sample",
-                "position": "Promotion Lead",
                 "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg",
                 "social": {
                     "instagram": "#",
